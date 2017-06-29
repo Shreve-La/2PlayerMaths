@@ -44,7 +44,7 @@
         NSLog(@"Since you are my Patient, I can give you a perscription");
         Perscription *perscription = [Perscription new];
         [patient.healthRecords addObject:perscription];
-        []
+        
         
     }else{
         NSLog(@"Sorry you are not my Patient, I can not give you a perscription");

@@ -18,6 +18,7 @@
         _name = name;
         _healthcard = healthCard;
         _symptom = symptom;
+        _healthRecords = [NSMutableArray new];
     }
     return self;
 }
